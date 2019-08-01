@@ -1,8 +1,8 @@
 Plone on Elastic Beanstalk
 ==========================
 
-Installation
-------------
+Development
+-----------
 
 *macOS*
 
@@ -14,3 +14,10 @@ Installation
     export CPPFLAGS="-I/usr/local/opt/zlib/include"
     make pip-install
     make b
+
+Deployment
+----------
+
+::
+
+    aws elasticbeanstalk update-environment --environment-name <ENV> --solution-stack-name "64bit Amazon Linux 2018.03 v2.7.6 running Python 2.7"
