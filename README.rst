@@ -4,6 +4,8 @@ Plone on Elastic Beanstalk
 Installation
 ------------
 
+*macOS*
+
 ::
 
     make virtualenv-2
