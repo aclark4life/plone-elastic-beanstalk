@@ -252,5 +252,6 @@ sys.path[0:0] = [
     '/srv/eggs/zope.dublincore-3.7.0-py2.7.egg',
     ]
 
+print(sys.path)
 from Zope2.Startup.run import make_wsgi_app
 application = make_wsgi_app({}, '/srv/parts/plone/etc/zope.conf')
