@@ -420,3 +420,6 @@ pack: webpack-run
 
 d:
 	eb deploy
+
+eb:
+	buildout -c eb.cfg
