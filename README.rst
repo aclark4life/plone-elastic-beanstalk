@@ -24,7 +24,8 @@ EB defaults to Python 3, so to run Plone 4 we need to go back to Python 2.7.
 
 ::
 
-    aws elasticbeanstalk update-environment --environment-name <ENV> --solution-stack-name "64bit Amazon Linux 2018.03 v2.7.6 running Python 2.7"
+    aws elasticbeanstalk update-environment --environment-name <ENV> \
+        --solution-stack-name "64bit Amazon Linux 2018.03 v2.7.6 running Python 2.7"
 
 
 Debug
