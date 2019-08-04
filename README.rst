@@ -6,6 +6,8 @@ Development
 
 *macOS*
 
+Using https://github.com/aclark4life/universal-project-makefile. Pillow needs /usr/local/opt/zlib.
+
 ::
 
     make virtualenv-2
@@ -17,6 +19,8 @@ Development
 
 Deployment
 ----------
+
+EB defaults to Python 3, so to run Plone 4 we need to go back to Python 2.7
 
 ::
 
