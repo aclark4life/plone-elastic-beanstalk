@@ -28,6 +28,13 @@ EB defaults to Python 3, so to run Plone 4 we need to go back to Python 2.7.
         --solution-stack-name "64bit Amazon Linux 2018.03 v2.7.6 running Python 2.7"
 
 
+EB deploy.
+
+::
+
+    make d
+
+
 Debug
 -----
 
