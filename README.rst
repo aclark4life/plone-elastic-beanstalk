@@ -20,7 +20,7 @@ Using https://github.com/aclark4life/universal-project-makefile. Pillow needs /u
 Deployment
 ----------
 
-EB defaults to Python 3, so to run Plone 4 we need to go back to Python 2.7
+EB defaults to Python 3, so to run Plone 4 we need to go back to Python 2.7.
 
 ::
 
@@ -29,6 +29,8 @@ EB defaults to Python 3, so to run Plone 4 we need to go back to Python 2.7
 
 Debug
 -----
+
+To be run after ``eb ssh``.
 
 ::
 
