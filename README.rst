@@ -42,4 +42,4 @@ To be run after ``eb ssh``.
 
 ::
 
-    cd /opt/python/current; source ./env; cd app
+    cd /opt/python/current && source ./env && cd app
